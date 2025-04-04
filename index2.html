@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Creator: Arda Aydoğdu" />
+  <title>Çernobil</title>
+
+  <!-- Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      color: #333;
+      padding: 40px;
+    }
+
+    h3 {
+      color: crimson;
+      margin-top: 30px;
+    }
+
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      max-width: 400px;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #0056b3;
+    }
+
+    table {
+      margin: 20px 0;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px 15px;
+    }
+
+    .info-section {
+      margin: 40px 0;
+      text-align: center;
+    }
+
+    .info-section p {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .info-section img {
+      border-radius: 12px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .info-section img:hover {
+      transform: scale(1.05);
+    }
+
+    iframe {
+      width: 100%;
+      height: 300px;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+
+    .footer {
+      font-size: 14px;
+      color: #888;
+      text-align: center;
+      padding: 30px 10px 10px;
+      border-top: 1px solid #ddd;
+      margin-top: 50px;
+    }
+
+    .footer span {
+      font-weight: 600;
+      color: #000;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 20px 0;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="#">
+    <label for="ad">E-Posta:</label>
+    <input type="text" name="ad" id="ad" placeholder="Örn: denizsahin@gmail.com" required />
+
+    <label for="sifre">Password:</label>
+    <input type="password" name="sifre" id="sifre" placeholder="********" required minlength="8" maxlength="15" />
+
+    <label>Cinsiyet:</label>
+    <input type="radio" name="Cinsiyet" value="male" /> Erkek
+    <input type="radio" name="Cinsiyet" value="female" /> Kadın
+
+    <input type="reset" value="Temizle" />
+    <input type="submit" value="Gönder" />
+  </form>
+
+  <a href="https://www.youtube.com/watch?v=yWQ52xwqDIM&pp=ygUJY2hlcm5vYnls" target="_blank" title="korkmana gerek yok">
+    Murat Soner Evrenin EN Dizisi
+  </a>
+
+  <table bgcolor="black">
+    <tr bgcolor="grey">
+      <th>26</th>
+      <th>Nisan</th>
+      <th>1986</th>
+    </tr>
+    <tr align="center" bgcolor="lightgrey">
+      <td>01</td>
+      <td>23</td>
+      <td>Moskova Saati UTC +4</td>
+    </tr>
+  </table>
+
+  <div class="info-section">
+    <p>↓↓↓↓↓↓↓↓ Çernobyl Hakkında Daha Fazla Bilgi İçin ↓↓↓↓↓↓↓↓</p>
+    <a href="https://tr.wikipedia.org/wiki/%C3%87ernobil_Facias%C4%B1" target="_blank">
+      <img src="fotograf/cernobilanisi.png" alt="Çernobil faciası" width="350px" title="bomboclat" />
+    </a>
+  </div>
+
+  <a href="https://www.eyeofriyadh.com/news/details/topgolf-adds-a-new-dimension-to-dubai-as-a-golfing-destination" target="_blank">
+    <h3>Sakın Tıklama!</h3>
+  </a>
+
+  <iframe src="https://www.youtube.com/" frameborder="0"></iframe>
+
+  <p style="text-align: center; color: #555; margin-top: 20px;">
+    <strong>⚠️ Bu site amatörlerin verilerini çalmak için geliştirildi ⚠️</strong>
+  </p>
+
+  <div class="footer">
+    Copyright © Tüm Hakları Saklıdır. Creator: <span>Arda Aydoğdu</span>
+  </div>
+
+</body>
+</html>
